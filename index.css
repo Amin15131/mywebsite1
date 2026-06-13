@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-gold-50: #faf7ef;
+  --color-gold-100: #f4ede0;
+  --color-gold-200: #e6d4b5;
+  --color-gold-300: #d8ba8f;
+  --color-gold-400: #cfa56b;
+  --color-gold-500: #c5a059;
+  --color-gold-600: #a88344;
+  --color-gold-700: #8a6730;
+  --color-gold-800: #6b4d20;
+  --color-gold-900: #4d3412;
+  --color-gold-950: #291a08;
+
+  --color-lux-black: #050505;
+  --color-lux-dark: #0f0f0f;
+  --color-lux-gray: #1a1a1a;
+  --color-lux-light: #f5f5f5;
+}
+
+/* Custom scrollbar matching luxury layout */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #111111;
+  border-radius: 3px;
+  border: 1px solid #c5a059;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a059;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #050505;
+}
+
+/* Frosted glass styling utility matching theme */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gold-glow {
+  text-shadow: 0 0 20px rgba(197, 160, 89, 0.3);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f4ede0 0%, #c5a059 50%, #8a6730 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 15px rgba(197, 160, 89, 0.1);
+}
+.gold-border-glow:hover {
+  box-shadow: 0 0 25px rgba(197, 160, 89, 0.25);
+}
