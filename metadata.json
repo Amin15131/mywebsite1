@@ -1,0 +1,8 @@
+{
+  "name": "Hollywood 2002 Barbershop",
+  "description": "Premium cinematic website for Hollywood 2002 Barbershop, serving luxury haircuts and beard grooms in New York since 2002. Craftsmanship and consistency for over 20 years.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
